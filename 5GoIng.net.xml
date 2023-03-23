@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-02-21 11:15:17 by Eclipse SUMO netedit Version 1.15.0
+<!-- generated on 2023-03-23 16:56:37 by Eclipse SUMO netedit Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="/home/lobo/Project/5GoIng/5GoIng.net.xml"/>
+        <sumo-net-file value="5GoIng.net.xml"/>
     </input>
 
     <output>
-        <output-file value="/home/lobo/Project/5GoIng/5GoIng.net.xml"/>
+        <output-file value="5GoIng.net.xml"/>
     </output>
 
     <processing>
@@ -84,9 +84,6 @@
     </edge>
     <edge id=":2117911028_1" function="internal">
         <lane id=":2117911028_1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.28" length="11.80" shape="187.96,501.63 199.75,501.25"/>
-    </edge>
-    <edge id=":251005330_0" function="internal">
-        <lane id=":251005330_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="3.68" length="4.75" width="3.25" shape="0.03,508.51 -1.20,507.72 -1.62,506.92 -1.23,506.10 -0.03,505.27"/>
     </edge>
     <edge id=":251021099_0" function="internal">
         <lane id=":251021099_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.05" length="4.95" width="6.50" shape="199.95,501.23 200.37,496.30"/>
@@ -757,10 +754,7 @@
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
     </junction>
-    <junction id="2354330299" type="dead_end" x="584.77" y="32.54" incLanes="" intLanes="" shape="584.77,32.54"/>
-    <junction id="251005330" type="priority" x="0.00" y="506.89" incLanes="1016166670#1_0" intLanes=":251005330_0_0" shape="-0.00,506.89 0.06,510.14 0.00,506.89">
-        <request index="0" response="0" foes="0" cont="0"/>
-    </junction>
+    <junction id="251005330" type="dead_end" x="0.00" y="506.89" incLanes="1016166670#1_0" intLanes="" shape="-0.00,506.89 0.06,510.14 0.00,506.89"/>
     <junction id="251021099" type="priority" x="198.42" y="501.38" incLanes="865774625_0" intLanes=":251021099_0_0 :251021099_1_0" shape="205.62,503.58 205.41,498.58 203.82,496.37 197.76,494.04 187.68,501.58 187.99,504.79">
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
@@ -973,7 +967,6 @@
     <connection from="-865774623#1" to="-865774623#0" fromLane="0" toLane="0" via=":8069942350_0_0" dir="s" state="M"/>
     <connection from="-900999384" to="900999384" fromLane="0" toLane="0" via=":8370040291_0_0" dir="t" state="M"/>
     <connection from="1016166670#0" to="1016166670#1" fromLane="0" toLane="0" via=":8069940667_0_0" dir="s" state="M"/>
-    <connection from="1016166670#1" to="-1016166670#1" fromLane="0" toLane="0" via=":251005330_0_0" dir="t" state="M"/>
     <connection from="1042026729" to="767516515#0" fromLane="0" toLane="0" via=":7166186975_0_0" dir="s" state="M"/>
     <connection from="146973220#0" to="146973220#1" fromLane="0" toLane="0" via=":7166206313_0_0" dir="s" state="M"/>
     <connection from="146973220#1" to="1042026729" fromLane="0" toLane="0" via=":8763919378_0_0" dir="s" state="M"/>
@@ -1047,7 +1040,6 @@
     <connection from=":2117911027_1" to="767516510#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":2117911028_0" to="1016166670#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":2117911028_1" to="865774625" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":251005330_0" to="-1016166670#1" fromLane="0" toLane="0" dir="t" state="M"/>
     <connection from=":251021099_0" to="865774624#0" fromLane="0" toLane="0" dir="r" state="M"/>
     <connection from=":251021099_1" to="767516521#0" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":7166186943_0" to="164051425#2" fromLane="0" toLane="0" dir="s" state="M"/>

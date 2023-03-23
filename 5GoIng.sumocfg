@@ -10,13 +10,12 @@
 <configuration>
 	<input>
 		<net-file value="5GoIng.net.xml"/>
-		<route-files value="BusRoutes.flow.xml,passenger.rou.xml,trucks.rou.xml"/>
-		<additional-files value="busStop.add.xml,5GoIng.poly.xml"/>		
+		<route-files value="5GoIng.rou.xml, 5GoIng.trucks.rou.xml, 5GoIng.pedestrian.rou.xml"/>
 	</input>
 	<time>
 		<begin value="0"/>
 		<step-length value="0.1"/>
-		<end value="3600"/>
+		<end value="200"/>
 	</time>
 	<processing>
 		<route-steps value="200"/>
